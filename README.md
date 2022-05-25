@@ -30,4 +30,4 @@
 
 ## Licencia 📄
 
-Este proyecto esta bajo la Licencia CC (creative commons) 
+Este proyecto esta bajo Copyright © 

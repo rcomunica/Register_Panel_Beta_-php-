@@ -22,6 +22,7 @@
 - [ ] Subir foto de perfil automaticamente
 - [ ] Mejorar la seguridad del panel
 - [x] Creacion automatica de archivos
+- [ ] Hacer posible la busqueda de usuarios ya registrados
 
 ## Autores ✒️
   

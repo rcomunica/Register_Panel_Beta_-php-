@@ -1,0 +1,183 @@
+
+input{
+    border-radius: 18px;
+    padding: 20px; 
+    width: 150px;
+    height: 5px;   
+    border-color: transparent;
+    background-color: #D5D8DC;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+body{
+    background-color: #34495E;
+    font-family: 'Square Peg', cursive;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+:root{
+    --font-color: #598dc2;
+    --blue-acces: #0066ff;
+    --red-error: #ff0000;
+    --green-new: #09ff00;
+    --background-color: #34495E;
+    --input-color: #D5D8DC;
+    --text-color: #598dc2;
+}
+
+/* MENSAJES DE PHP */
+.mensaje_admin{
+    color: var(--blue-acces);
+    font-size: 10vh;
+    position: relative;
+    bottom: 12vh;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+.mensaje_fail{
+    color: var(--red-error);
+    font-size: 45px;
+    position: relative;
+    left: 28%;
+    bottom: 35px;
+    margin-left: 10px;
+}
+
+.mensaje_correct{
+    color: var(--green-new);
+    font-size: 7vh;
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+
+
+/*   INPUT Y FORM  */
+
+.fa-magnifying-glass{
+    font-size: 20px;
+}
+
+.search__a-icon{
+    color: var(--input-color);
+    position: absolute;
+    left: 83%;
+    top: 2%;
+    font-size: 28px;
+}
+
+
+.form__file-input {
+    background-color: transparent !important;
+    position: relative;
+    top: -56px;
+    right: -250px;
+}
+
+.formcontaineruser{
+    width: 110vh;
+    height: 90vh;
+    background-color: #283747;
+    position: absolute;
+    margin: auto;
+    top: 18%;
+    left: 25%;
+    overflow-y: scroll;
+}
+
+.p__text{
+    font-size: 48px;
+    margin-bottom: -20px;
+    margin-top: 3px;
+    margin-left: 24px;
+    color: #598dc2;
+}
+
+.form__name-div, 
+.form__lastname-div, 
+.form__email-div, 
+.form__number-div, 
+.form__adress-div,
+.form__password-div,
+.form__passwordconfirm-div,
+.form__file-div
+.form__submit-input{
+    margin-top: 5vh;
+    margin-left: 3vh;
+    background-color: transparent;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 0%;
+}
+
+.form__submit-input {
+    text-align: center;
+    position: relative;
+    left: 5vh;
+    top: 0vh;
+    padding-top: 5px;
+
+}
+.form__button-input{
+    text-align: center;
+    position: relative;
+    left: 29vh;
+    top: -4.2vh;
+    padding-top: 5px;
+}
+
+/* 
+    Este fragmento de codigo es para 
+    el titulo "Register Panel" o
+    'TITULO'
+    
+    NOTA: se realizara el siguiente tutorial
+    para el titulo
+    
+    https://www.youtube.com/watch?v=Bfvfi6Cr7JY
+
+*/
+.titlecontainer{
+    top: -120px;
+    right: -86vh;
+    position: relative;
+
+}
+
+h2 {
+    font-size: 15vmin;
+    position: absolute;
+}
+
+.border {
+    color: black;  
+    text-shadow:
+       -1px -1px 0 white, 
+       1px -1px 0 white,
+       -1px 1px 0 white,
+       1px 1px 0 white;  
+}
+.wave {
+    color: cyan;
+    animation: shift 6s ease-in-out infinite;
+}
+@keyframes shift {
+    0%, 100% {
+        clip-path: polygon(0% 47%, 10% 48%, 33% 54%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+      50% {
+        clip-path: polygon(0% 60%, 15% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+}

@@ -1,0 +1,1 @@
+<?php  include('..\plantilla_usuario.php') ?><?php echo '<h4>correo: <b>spectral@gmail.com</b> </h4>' ?><?php echo '<h4>Numero telefonico: <b>+57 3195397373</b> </h4>' ?><?php echo '<h4>Direccion:  <b>123</b> </h4> </div>' ?>

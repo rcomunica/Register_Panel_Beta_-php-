@@ -1,0 +1,1 @@
+<?php  include('..\plantilla_usuario.php') ?><?php echo '<h4>correo: <b></b> </h4>' ?><?php echo '<h4>Numero telefonico: <b></b> </h4>' ?><?php echo '<h4>Direccion:  <b></b> </h4> </div>' ?>

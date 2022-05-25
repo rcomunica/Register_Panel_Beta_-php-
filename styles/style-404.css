@@ -1,0 +1,28 @@
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #D35400;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+a:hover{
+    color: gray;
+}
+
+.containerinfo{
+    background-color: #48e;
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    top: 30vh;
+    border-radius: 30px;
+}

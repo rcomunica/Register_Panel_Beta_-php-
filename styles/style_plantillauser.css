@@ -1,0 +1,33 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+    margin: 0px;
+    
+    
+}
+
+h4 b{
+    color: var(--input-color)
+}
+
+.container_details{
+    background-color: #2E86C1;
+    display: inline-block;
+    padding: 4vh;
+    height: 92vh;
+}
+
+
+:root{
+    --font-color: #598dc2;
+    --blue-acces: #0066ff;
+    --red-error: #ff0000;
+    --green-new: #09ff00;
+    --background-color: #34495E;
+    --input-color: #D5D8DC;
+    --text-color: #598dc2;
+    --details-color: #2E86C1;
+}
